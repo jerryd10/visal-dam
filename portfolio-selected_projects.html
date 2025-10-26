@@ -1,3 +1,7 @@
+---
+title: Projects
+---
+
 <!DOCTYPE HTML>
 <!--
 	Forty by HTML5 UP
@@ -6,15 +10,8 @@
 -->
 <html>
 
-<head>
-	<title>Visal Dam - Selected Projects</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" />
-	</noscript>
-</head>
+<!-- Head -->
+{% include head.html %}
 
 <body class="is-preload">
 
@@ -22,29 +19,10 @@
 	<div id="wrapper">
 
 		<!-- Header -->
-		<!-- Note: The "styleN" class below should match that of the banner element. -->
-		<header id="header" class="alt style2">
-			<a href="index.html" class="logo"><strong>Visal Dam</strong> <span>Portfolio</span></a>
-			<nav>
-				<a href="#menu">Menu</a>
-			</nav>
-		</header>
+		{% include header.html %}
 
 		<!-- Menu -->
-		<nav id="menu">
-			<ul class="links">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="portfolio-about.html">About</a></li>
-				<li><a href="portfolio-selected_projects.html">Selected Projects</a></li>
-				<li><a href="landing.html">Publications</a></li>
-				<li><a href="landing.html">Awards</a></li>
-				<li><a href="landing.html">Other</a></li>
-			</ul>
-			<ul class="actions stacked">
-				<li><a href="index.html#contact" class="button fit">Contact</a></li>
-			</ul>
-		</nav>
-
+		{% include menu.html %}
 
 		<!-- Banner -->
 		<!-- Note: The "styleN" class below should match that of the header element. -->
